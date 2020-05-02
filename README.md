@@ -11,5 +11,5 @@ npm install
 
 And remember:
 ```
-npm run rebuild
+npm run build
 ```
