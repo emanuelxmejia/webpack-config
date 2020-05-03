@@ -59,7 +59,7 @@ module.exports = {
         new CopyPlugin([
             {
                 from: 'src/assets/',
-                to: 'assets'
+                to: 'assets/'
             }
         ]),
         new CleanWebpackPlugin(),
