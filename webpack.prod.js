@@ -6,6 +6,7 @@ const MinifyPlugin = require("babel-minify-webpack-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
+    entry: ['@babel/polyfill', './src/index.js'],
     mode: 'production',
     optimization: {
         minimizer: [ new OptimizeCssAssetsPlugin() ]
